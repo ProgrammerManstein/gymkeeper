@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sex">
+       <item>男</item>
+       <item>女</item>
+    </string-array>
+    
+    <string-array name="age">
+       <item>0-3岁</item>
+       <item>3-10岁</item>
+       <item>10-18岁</item>
+       <item>18-30岁</item>
+       <item>30-60岁</item>
+       <item>>60岁</item>
+    </string-array>
+    
+    <string-array name="action">
+       <item>久坐、很少或是几乎没有活动</item>
+       <item>偶尔活动、每周活动1-3次</item>
+       <item>坚持健身、每周活动3-5次</item>
+       <item>热爱运动、每周活动5-7次</item>
+       <item>大量劳动或相当耗能的活动</item>
+    </string-array>
+    
+    <string-array name="menu">
+       <item>删除</item>
+    </string-array>
+</resources>

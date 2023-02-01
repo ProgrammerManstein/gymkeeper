@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/diet_list_bg"
+	android:orientation="vertical" >
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:orientation="horizontal">
+	
+		<TextView
+			android:id="@+id/diet_list_item_comment"
+			android:layout_width="match_parent"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:textSize="17sp"
+			android:textColor="#727e88"
+			/>
+		
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:gravity="center" >
+		    
+			<TextView
+				android:id="@+id/diet_list_item_heat"
+				android:layout_width="match_parent"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:textSize="17sp"
+				android:textColor="#727e88"
+				 />
+			
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_weight="1"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:textSize="17sp"
+			    android:text="大卡"
+			    android:textColor="#727e88"
+			     />
+		</LinearLayout>
+	
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+		<TextView
+			android:id="@+id/diet_list_item_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:textColor="#a57a73"
+			/>
+		
+		<TextView
+			android:id="@+id/diet_list_item_count"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:textColor="#a57a73"
+			/>
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:textColor="#a57a73"
+			android:text="克"
+			/>
+		
+		<TextView
+		    android:id="@+id/diet_list_item_id"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone"
+			/>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:orientation="horizontal" >
+	        <TextView
+			    android:layout_width="match_parent"
+			    android:layout_weight="1"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:textSize="11sp"
+			    android:text="蛋白质(克)"
+			    android:textColor="#9e9c9a"
+			     />
+	        
+	        <TextView
+			    android:layout_width="match_parent"
+			    android:layout_weight="1"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:textSize="11sp"
+			    android:text="脂肪(克)"
+			    android:textColor="#9e9c9a"
+			     />
+	        
+	        <TextView
+			    android:layout_width="match_parent"
+			    android:layout_weight="1"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:textSize="11sp"
+			    android:text="碳水化合物(克)"
+			    android:textColor="#9e9c9a"
+			     />
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/diet_list_item_protein"
+				android:layout_width="match_parent"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="10sp"
+				android:textColor="#9e9c9a"
+				/>
+				
+			<TextView
+				android:id="@+id/diet_list_item_fat"
+				android:layout_width="match_parent"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="10sp"
+				android:textColor="#9e9c9a"
+				 />
+			
+			<TextView
+				android:id="@+id/diet_list_item_carbohydrate"
+				android:layout_width="match_parent"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="10sp"
+				android:textColor="#9e9c9a"
+				 />
+	</LinearLayout>
+
+</LinearLayout>
+
+

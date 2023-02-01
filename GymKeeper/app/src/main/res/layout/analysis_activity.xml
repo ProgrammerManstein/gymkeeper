@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:layout_marginRight="15dp"
+		android:layout_marginLeft="15dp"
+		android:background="@drawable/diet_total_bg">
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/analyse"
+			android:text="每日饮食分析"
+			android:textSize="20dp"
+			android:gravity="center"
+			/>
+
+	</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center">
+	    <Spinner
+	        android:id="@+id/analysis_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        />
+	</LinearLayout>
+
+
+    
+    <LinearLayout 
+        android:orientation="horizontal" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginBottom="5dp"
+	    android:layout_marginRight="15dp"
+	    android:layout_marginLeft="15dp"
+	    android:background="#b2bce0">
+	    
+	    <TextView 
+	        android:id="@+id/analysis_text_left"
+	        android:layout_width="fill_parent"
+			android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:textColor="#9e9c9a"
+	        android:gravity="right"
+	        android:textSize="17sp"
+	 		/>
+	    
+	    <TextView
+	        android:id="@+id/analysis_text_right"
+	        android:layout_width="fill_parent"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:textColor="#9e9c9a"
+	        android:layout_marginLeft="30dp"
+	        android:textSize="17sp"
+	        />
+    </LinearLayout>
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginTop="3dp"
+	    android:layout_marginBottom="60dp"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:background="#eee" >
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:text="热量比"
+	        />
+	    
+	    <com.example.spotsmusic.analysis.PieChartView
+	        android:id="@+id/analysis_pie_chart"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	         />
+	</LinearLayout>
+</LinearLayout>

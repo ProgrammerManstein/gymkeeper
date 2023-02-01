@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+    
+    <EditText   
+        android:id="@+id/adddiet_comment"   
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:hint="备注"   
+        android:maxHeight="50dp"   
+        android:textSize="18sp" />
+    
+    <EditText
+        android:id="@+id/adddiet_name"   
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:editable="false"
+        android:maxHeight="50dp"   
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/adddiet_count"
+        android:numeric="integer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:layout_marginTop="10dp"
+        android:hint="克数"
+        android:textSize="18sp" />  
+    
+    <Button   
+        android:id="@+id/adddiet_save"
+        android:background="@drawable/button"
+		android:textColor="#fff"
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"   
+        android:layout_marginTop="10dp"   
+        android:text="添加至饮食" />     
+        
+</LinearLayout> 

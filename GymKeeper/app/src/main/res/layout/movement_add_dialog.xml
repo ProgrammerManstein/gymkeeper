@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:minWidth="200dp"  
+    android:orientation="vertical"  
+    android:padding="10dp"  
+    android:paddingBottom="20dp"  
+    android:paddingTop="30dp">      
+    
+    <EditText   
+        android:id="@+id/title"
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:hint="动作名"
+        android:maxHeight="50dp"   
+        android:textSize="18sp" />      
+        
+    <EditText
+        android:id="@+id/tab"
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:layout_marginTop="10dp" 
+        android:text="部位/主题"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="组数:"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:layout_marginTop="10dp"
+        android:text="4"
+        android:inputType="number"
+        android:editable="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间（分钟）:"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:layout_marginTop="10dp"
+        android:text="15"
+        android:inputType="number"
+        android:editable="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="消耗热量（大卡）:"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/ca"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:layout_marginTop="10dp"
+        android:text="4"
+        android:inputType="number"
+        android:editable="false"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="耐力有氧"
+            android:id="@+id/yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:text="无氧训练"
+            android:id="@+id/no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <Button   
+        android:id="@+id/addmovement"
+        android:background="@drawable/button"
+		android:textColor="#fff"
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"   
+        android:layout_marginTop="10dp"   
+        android:text="添加至动作库" />
+
+        
+</LinearLayout> 
+

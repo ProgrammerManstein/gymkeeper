@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/diet_list_bg">
+
+    <TextView android:id="@+id/nutrient_name"
+        android:layout_width="fill_parent"
+		android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="#9e9c9a"
+ 		/>
+    
+    <TextView android:id="@+id/nutrient_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="#9e9c9a"
+        />
+    
+    <TextView android:id="@+id/nutrient_comment"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="#9e9c9a"
+        />
+
+</LinearLayout>
